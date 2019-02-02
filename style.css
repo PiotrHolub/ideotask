@@ -36,13 +36,19 @@ li{
   p{
       font-weight: 100;
       text-align: justify;
+      padding-top:10px;
+      padding-bottom:15px;
   }
 
-  h5{
-      padding-top:20px;
-  }
+  
 
   #footer{
       height: 68px;
       background-color:rgb(0, 59, 95);
+  }
+
+  .content{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
   }
