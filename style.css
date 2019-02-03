@@ -85,6 +85,11 @@ li {
   font-size: 20px;
   padding-left: 5px; }
 
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch; }
+
 /* ---------- CONTENT ---------- */
 .home {
   margin-top: 20px;

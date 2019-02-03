@@ -4,7 +4,7 @@ $( document ).ready(function() {
       });
 
       $(".newarray").click(function(){
-        $("#leftmenu").toggle(500);
+        $("#sidebar").toggle(500);
         if($("#newarray").hasClass("norotate")){
             $(this).addClass("rotate270");
             $(this).removeClass("norotate");
