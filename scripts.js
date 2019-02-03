@@ -4,14 +4,18 @@ $( document ).ready(function() {
       });
 
       $(".newarray").click(function(){
-        $("#sidebar").toggle(200);
+        
         if($("#newarray").hasClass("norotate")){
-            $(this).addClass("rotate270");
+            $("#sidebar").animate({left: '-250px'});
+            $(this).addClass("rotate180");
             $(this).removeClass("norotate");
+            $(this).animate({left: '30px'});
             }
             else{
-                $(this).removeClass("rotate270");
+                $("#sidebar").animate({left: '0px'});
+                $(this).removeClass("rotate180");
                 $(this).addClass("norotate");
+                $(this).animate({left: '130px'});
         } 
       });
 });
