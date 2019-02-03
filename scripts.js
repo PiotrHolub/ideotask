@@ -1,6 +1,6 @@
 $( document ).ready(function() {
-      $("#search > span").click(function(){
-        $("#search > input").toggle(500);
+      $("#searchspan").click(function(){
+        $("#searchinput").toggle(500);
       });
 
       $(".newarray").click(function(){
