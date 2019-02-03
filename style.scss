@@ -1,0 +1,139 @@
+
+@import  "variables.scss";
+
+li{
+    list-style: none;
+    pointer-events: none;
+    cursor: default;
+}
+
+/* ---------- MENU ---------- */
+.background_menu{
+    background-color:$dark-blue;
+    height: 88px;
+}
+.img-fluid{
+    width: 80%;
+    background-color:white;
+    box-shadow: 3px 3px 8px #A9A9A9;
+}
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    li a{
+        color: white;
+        font-size: 15px;
+    }
+}
+
+/* ----------LEFT  MENU ---------- */
+#sidebar {
+    min-width: 150px;
+    max-width: 150px;
+    height: 1090px;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    z-index: 9999;
+    box-shadow: 7px 0 5px -5px lightgrey;
+    background-color: white;
+}
+#leftmenu ul{
+    padding-top:40px;
+    li{
+        padding-top:10px;
+        a{
+            color: $dark-blue;
+        }
+    }
+}
+.hrline{
+    width: 70px;
+    margin-left: 0;
+    border-top: 2px dotted $dark-blue;  
+}
+.newarray{
+    height: 30px;
+    position: absolute;
+    top: 375px;
+    left: 120px;
+    z-index: 9999;
+}
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+#array{
+    height:15px;
+}
+
+/* ----------SIDEBAR SEARCH ---------- */
+#sidebar_search{
+    min-width: 180px;
+    max-width: 150px;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: 9999;
+    padding-left:10px;
+}
+.searchinput{
+    display: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    outline: none;
+    width:130px;
+}
+.glyphicon{
+    color:white;
+    font-size:20px;
+    padding-left: 5px;
+}
+
+/* ---------- CONTENT ---------- */
+.home{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    p{
+        font-size:20px;
+        padding-top:25px;
+        padding-left: 10px;
+        color:rgb(0, 59, 95)
+    }
+}
+.hrlong{
+    width: 100%;
+    border-top: 2px dotted $dark-blue;
+    margin-top:40px;
+    margin-bottom:50px;
+}
+.content{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    img{
+        width:99%;
+    }
+    p{
+        font-weight: 100;
+        text-align: justify;
+        padding-top:10px;
+        padding-bottom:15px;
+    }
+}
+
+
+/* ---------- FOOTER ---------- */
+
+#footer{
+    height: 68px;
+    background-color:rgb(0, 59, 95);
+}
+
+ 
