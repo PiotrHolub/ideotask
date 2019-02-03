@@ -30,7 +30,7 @@
         </div>
 
         <div id="sidebar" style="box-shadow: 7px 0 5px -5px lightgrey; background-color: white;">
-            <div class="leftmenu">
+            <div id="leftmenu">
                 <ul style="padding-top:40px;">
                     <li><a href="#">Menu</a></li>
                     <hr class="hrline">
@@ -42,7 +42,7 @@
                     <li><a href="#">Kontakt</a></li>
                     <hr class="hrline" >
                     <li><a href="#">O firmie</a></li>
-                    <li><a href="#">Nagrody<img src="images/array.jpg" alt="array" style="padding-left:30px; height:15px;"></a></li>
+                    <li><a href="#">Nagrody</a></li>
                     <li><a href="#">Relacje inwestorskie</a></li>
                     <li><a href="#">Partnerzy</a></li>
                     <li><a href="#">Kariera</a></li>
@@ -51,11 +51,14 @@
                     <li><a href="#"><img src="images/linkedin.jpg" alt="linkedin"></a></li>
                 </ul>
             </div>
+            <div id="newarray" class="newarray norotate">
+                <img id="array" src="images/array.jpg" alt="array" style=" height:15px;">
+            </div>
         </div>
 
         <div id="sidebar_search">
-            <div>
-                <input type="text" style="-webkit-border-radius: 50px;-moz-border-radius: 30px;border-radius: 30px;outline: none; width:130px;">
+            <div id="search">
+                <input type="text" style="-webkit-border-radius: 50px;-moz-border-radius: 30px;border-radius: 30px;outline: none; width:130px; display:none;">
                 <span class="glyphicon" style="color:white; font-size:20px; padding-left: 5px;">&#xe003;</span>
             </div>
         </div>
@@ -130,8 +133,10 @@
                 </div>
             </div>  
         </div>
-        
-        <script src="" async defer></script>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scripts.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
