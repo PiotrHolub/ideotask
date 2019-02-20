@@ -22,9 +22,10 @@ li{
     width: 255px;
     background-color:white;
     box-shadow: 3px 3px 8px lightgrey;
-    padding:11px 22px 15px 22px;
+    padding:11px 22px 15px 23px;
     height: 184px;
 }
+
 #menu ul{
     display: flex;
     justify-content: space-between;
@@ -40,9 +41,9 @@ li{
 
 /* ----------LEFT  MENU ---------- */
 #sidebar {
-    min-width: 210px;
-    max-width: 210px;
-    height: 1075px;
+    min-width: 202px;
+    max-width: 202px;
+    height: 1340px;
     position: absolute;
     top: 89px;
     left: 10px;
@@ -63,29 +64,34 @@ li{
 }
 
 .fbicon{
-    margin-top:10px;
+    margin-top:6px;
     margin-left:4px;
-    height:23px;
+    height:28px;
 }
 .instaicon{
-    margin-top:14px;
-    margin-left:3px;
-    height:23px;
+    margin-top:18px;
+    margin-left:4px;
+    height:29px;
 }
-
 .hrline{
     width: 100px;
     margin-left: 0;
-    margin-top:14px;
-    margin-bottom:18px;
-    border-top: 2px dotted #0066CD;  
-    
+    border-top: 2px dotted #0066CD;
 }
+.hrline1{
+    margin-top:14px;
+    margin-bottom:16px;
+}
+.hrline2{
+    margin-top:20px;
+    margin-bottom:16px;
+}
+
 .newarray{
     
     position: absolute;
-    top: 410px;
-    left: 146px;
+    top: 514px;
+    left: 181px;
     z-index: 9999;
 }
 .rotate180 {
@@ -96,7 +102,7 @@ li{
     transform: rotate(180deg);
 }
 #array{
-    height:14px;
+    height:18px;
 }
 
 /* ----------SIDEBAR SEARCH ---------- */
@@ -165,16 +171,17 @@ li{
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    padding-top:45px;
+    padding-top:12px;
+    column-gap: 34px;
     img{
-        width:100%;
-        height: 100%;
+        width:99%;
+        height: 99%;
     }
     p{
         font-size:16px;
         font-weight: 100;
         text-align: justify;
-        margin-top:19px;
+        margin-top:25px;
         
        
     }
@@ -184,9 +191,9 @@ li{
 /* ---------- FOOTER ---------- */
 
 #footer{
-    height: 68px;
+    height: 69px;
     background-color:rgb(0, 59, 95);
-    margin-top:62px;
+    margin-top:93px;
 }
 
 
