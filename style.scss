@@ -172,6 +172,8 @@ li{
     -moz-column-count: 2;
     column-count: 2;
     padding-top:12px;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
     column-gap: 34px;
     img{
         width:99%;
@@ -196,6 +198,21 @@ li{
     margin-top:93px;
 }
 
+@media only screen and (max-width: 1400px) {
+    .row{
+        margin-left:152px!important;
+        margin-right:152px!important;
+    }
 
+    #menu ul{
+        padding-top: 37px;
+        padding-left:75px;
+        li a{
+            color: white;
+            font-size: 16px;
+            font-weight: 100;
+        }
+    }
+  }
  
 
