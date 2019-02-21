@@ -184,8 +184,6 @@ li{
         font-weight: 100;
         text-align: justify;
         margin-top:25px;
-        
-       
     }
 }
 
@@ -205,14 +203,20 @@ li{
     }
 
     #menu ul{
-        padding-top: 37px;
         padding-left:75px;
         li a{
-            color: white;
             font-size: 16px;
-            font-weight: 100;
         }
     }
   }
  
+/* ---------- Styles only for IE and Edge ---------- */
 
+  @supports (-ms-ime-align: auto) {
+    .hrline {
+      margin-left: -60px; } }
+
+  @media screen and (min-width:0\0) and (min-resolution: +72dpi) {
+      .hrline {
+        margin-left: -60px; }
+    }

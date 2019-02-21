@@ -175,11 +175,15 @@ li {
     margin-right: 152px !important; }
 
   #menu ul {
-    padding-top: 37px;
     padding-left: 75px; }
     #menu ul li a {
-      color: white;
-      font-size: 16px;
-      font-weight: 100; } }
+      font-size: 16px; } }
+/* ---------- Styles only for IE and Edge ---------- */
+@supports (-ms-ime-align: auto) {
+  .hrline {
+    margin-left: -60px; } }
+@media screen and (min-width: 0\0) and (min-resolution: 72dpi) {
+  .hrline {
+    margin-left: -60px; } }
 
 /*# sourceMappingURL=style.css.map */
